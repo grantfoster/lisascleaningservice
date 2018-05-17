@@ -396,6 +396,10 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+h1 {
+	font-size: 48px;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -513,6 +517,20 @@ table {
 	width: 100%;
 }
 
+footer {
+	color: #f4f4f4;
+	background-color: #373737;
+	text-align: center;
+	padding: 30px;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+.silk {
+	background-color: #dbd1c3;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -520,10 +538,10 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border: 3px solid;
+	border-color: #373737;
 	border-radius: 3px;
-	background: #e6e6e6;
+	background: none;
 	color: rgba(0, 0, 0, 0.8);
 	font-size: 12px;
 	font-size: 0.75rem;
@@ -629,6 +647,7 @@ a:hover, a:active {
 .main-navigation {
 	width: 100%;
 	display: inline-block;
+	background-color: rgba(190, 178, 136, 0.7);
 }
 
 .main-navigation ul {
@@ -667,6 +686,9 @@ a:hover, a:active {
 }
 
 .main-navigation li {
+	font-family: 'Merriweather';
+	font-size: 18px;
+	margin: auto 10px;
 	float: left;
 	position: relative;
 }
@@ -674,6 +696,7 @@ a:hover, a:active {
 .main-navigation a {
 	display: inline-block;
 	text-decoration: none;
+	color: #373737;
 }
 
 .main-navigation .menu-all-pages-container {
@@ -684,9 +707,16 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	float: right;
+	margin: 20px;
 }
 
-@media screen and (min-width: 37.5em) {
+.menu-toggle i,
+.main-navigation.toggled ul i {
+	font-size: 24px;
+}
+
+@media screen and (min-width: 631px) {
 	.menu-toggle {
 		display: none;
 	}
@@ -719,6 +749,7 @@ a:hover, a:active {
 
 .custom-logo {
 	width: 130px;
+	margin: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -834,6 +865,25 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.site-header {
+	background-position: center top;
+}
+
+.site-header h1 {
+	color: white;
+	text-shadow: 0px 0px 10px #373737;
+	margin: 60px auto;
+}
+
+@media screen and (max-width: 425px) {
+	.site-header h1 {
+		font-size: 36px;
+	}
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -980,6 +1030,31 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*--------------------------------------------------------------
+# Bootstrap customization
+--------------------------------------------------------------*/
+.container {
+	max-width: 960px;
+}
+
+.skinny {
+	max-width: 670px;
+}
+
+.mid {
+	max-width: 960px;
+}
+
+.space {
+	padding: 60px 15px;
+}
+
+@media screen and (max-width: 425px) {
+	.space {
+		padding: 20px 15px;
+	}
 }
 
 /*# sourceMappingURL=../_s/sass/maps/style.css.map */

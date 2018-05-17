@@ -31,3 +31,10 @@ figure {
 }
 
 @import "tables";
+
+footer {
+	color: $paper;
+	background-color: $charcoal;
+	text-align: center;
+	padding: 30px;
+}

@@ -61,6 +61,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "elements/elements";
 
 /*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/blocks";
+
+/*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
 @import "forms/forms";
@@ -104,3 +109,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Bootstrap customization
+--------------------------------------------------------------*/
+@import "layout/custom-bootstrap";

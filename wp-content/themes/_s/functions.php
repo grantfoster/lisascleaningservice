@@ -123,6 +123,10 @@ function _s_scripts() {
 
 	wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto:400,700' );
 
+	wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' );
+
+	wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
 	wp_enqueue_style( '_s-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

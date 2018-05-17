@@ -24,20 +24,26 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
-	<header id="masthead" class="site-header">
-
+	<header id="masthead" class="site-header" style="background-image: linear-gradient(rgba(55,55,55, .65), rgba(55,55,55, .65)), url(<?php header_image(); ?>);">
 		<nav id="site-navigation" class="main-navigation">
-			<?php the_custom_logo(); ?>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
+			<div class="container">
+				<div class='col-12'>
+					<?php the_custom_logo(); ?>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
+					?>
+				</div>
+			</div>
 		</nav><!-- #site-navigation -->
-		<?php the_header_image_tag(); ?>
-		<p><?php the_field('header_text'); ?>
+		<div class='container skinny'>	
+			<div class="col-12">
+				<h1><?php the_field('header_text'); ?></h1>
+			</div>
+		</div>
 	
 	</header><!-- #masthead -->
 

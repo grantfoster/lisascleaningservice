@@ -19,9 +19,12 @@ $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
 
-$paper: #F4F4F4;
-$silk: #DBD1C3;
-$gold: #BEB288;
-$charcoal: #373737;
+$paper: rgba(244,244,244, 1);
+$silk: rgba(219,209,195, 1);
+$gold: rgba(190,178,136, 1);
+$charcoal: rgba(55,55,55, 1);
+
+$gold--transparent: rgba(190,178,136, .7);
+$charcoal--transparent: rgba(55,55,55, .25);
 
 
