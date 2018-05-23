@@ -2,9 +2,6 @@
 
 - add and buy the pictures
 
-- where should find jobs link to? candidates or jobs?
-
-
 **COMPLETE
 
 - fix whitespace above and below about us
@@ -22,4 +19,3 @@
 - center form
 
 - job section
-
