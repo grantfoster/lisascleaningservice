@@ -389,7 +389,7 @@ textarea {
 	font-family: Roboto;
 	font-size: 16px;
 	font-size: 1rem;
-	line-height: 1.5;
+	line-height: 1.75;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -847,7 +847,7 @@ a:hover, a:active {
 
 .custom-logo {
 	width: 130px;
-	margin: 10px;
+	margin: 10px 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1034,28 +1034,6 @@ a:hover, a:active {
 	padding: 10px 0;
 }
 
-.job .gold-cta {
-	text-decoration: none;
-	border-radius: 40px;
-	color: white;
-	font-size: 16px;
-	background-color: #beb288;
-	padding: 10px 60px;
-	transition: 400ms;
-	-webkit-transition: 400ms;
-	-moz-transition: 400ms;
-}
-
-.job .gold-cta:visited {
-	color: white;
-}
-
-.job .gold-cta:hover {
-	background-color: #c0b799;
-	color: #373737;
-	text-decoration: none;
-}
-
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
@@ -1189,6 +1167,31 @@ object {
 	.space {
 		padding: 20px 15px;
 	}
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+.gold-cta {
+	text-decoration: none;
+	border-radius: 40px;
+	color: white;
+	font-size: 16px;
+	background-color: #beb288;
+	padding: 10px 60px;
+	transition: 400ms;
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+}
+
+.gold-cta:visited {
+	color: white;
+}
+
+.gold-cta:hover {
+	background-color: #c0b799;
+	color: #373737;
+	text-decoration: none;
 }
 
 .zoom {

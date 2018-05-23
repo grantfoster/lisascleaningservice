@@ -24,24 +24,28 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
-	<header id="masthead" class="site-header" style="background-image: linear-gradient(rgba(55,55,55, .65), rgba(55,55,55, .65)), url(<?php the_field('header-image'); ?>);">
+	<header id="masthead" class="site-header" style="background-image: linear-gradient(rgba(55,55,55, .55), rgba(55,55,55, .55)), url(<?php the_field('header-image'); ?>);">
 		<nav id="site-navigation" class="main-navigation">
 			<div class="container skinny">
-				<div class='col-12'>
-					<?php the_custom_logo(); ?>
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
-					<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-					?>
+				<div class="row">
+					<div class='col-12'>
+						<?php the_custom_logo(); ?>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+						<?php
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+						) );
+						?>
+					</div>
 				</div>
 			</div>
 		</nav><!-- #site-navigation -->
-		<div class='container skinny'>	
-			<div class="col-12">
-				<h1><?php the_field('header_text'); ?></h1>
+		<div class='container skinny'>
+			<div class="row">
+				<div class="col-12">
+					<h1><?php the_field('header_text'); ?></h1>
+				</div>
 			</div>
 		</div>
 		<?php if ( is_front_page() ) : ?>
