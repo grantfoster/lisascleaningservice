@@ -1,0 +1,27 @@
+.site-header {
+    background-position: center top;
+    h1 {
+        color:white;
+        text-shadow: 0px 0px 10px $charcoal;
+        margin: 200px auto 60px auto;
+        @media screen and (max-width: $mobile) {
+            font-size: 36px;
+        }
+    }
+    .header-links {
+        color: white;
+        padding: 0px 0px 30px 0px;
+        h4 {
+            margin: 30px auto;
+        }
+        a {
+            font-family: 'Merriweather';
+            text-decoration: none;
+            border-radius: 40px;
+            color: white;
+            font-size: 18px;
+            background-color: $gold;
+            padding: 10px 60px;
+        }
+    }
+}

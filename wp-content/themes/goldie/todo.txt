@@ -1,0 +1,21 @@
+What else do you need.
+
+- center main nav items horizontally
+
+- add space above h1
+
+- center ladies preview
+
+- find a more horizontal phone
+
+- phone number after call today and in footer
+
+- too much whitespace above content
+
+- fix whitespace above and below about us
+
+- center form 
+
+- add and buy the pictures
+
+- job section
