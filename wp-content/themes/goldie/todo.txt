@@ -1,10 +1,17 @@
-What else do you need.
+- center ladies preview
+
+- add and buy the pictures
+
+- where should find jobs link to? candidates or jobs?
+
+
+**COMPLETE
+
+- fix whitespace above and below about us
 
 - center main nav items horizontally
 
 - add space above h1
-
-- center ladies preview
 
 - find a more horizontal phone
 
@@ -12,10 +19,7 @@ What else do you need.
 
 - too much whitespace above content
 
-- fix whitespace above and below about us
-
-- center form 
-
-- add and buy the pictures
+- center form
 
 - job section
+

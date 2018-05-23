@@ -20,29 +20,27 @@ get_header();
             <div class='container skinny space'>
                 <div class="row">
                     <div class='col-12'>
-                        
+                            <?php if( have_rows('jobs') ): ?>
 
-                        <?php if( have_rows('jobs') ): ?>
+                                <?php while( have_rows('jobs') ): the_row(); 
 
-                            <?php while( have_rows('jobs') ): the_row(); 
+                                    // vars
+                                    $title = get_sub_field('title');
+                                    $description = get_sub_field('description');
 
-                                // vars
-                                $title = get_sub_field('title');
-                                $description = get_sub_field('description');
+                                ?>
+                                <div class="job">
+                                    <hr>
+                                    <h4><?php echo $title ?></h4>
 
-                            ?>
-                                <hr>
-                                <h4><?php echo $title ?></h4>
+                                    <p><?php echo $description; ?></p>
 
-                                <p><?php echo $description; ?></p>
+                                    <p><a class='gold-cta' href='/apply/?position=<?php echo $title ?>'>Apply</a></p>
+                                </div> 
 
-                                <p><a class='gold-cta' href='/apply/?position=<?php echo $title ?>'>Apply</a></p>
+                                <?php endwhile; ?>
 
-                            <?php endwhile; ?>
-
-                        <?php endif; ?>
-
-
+                            <?php endif; ?>
                     </div>
                 </div>	
             </div>
