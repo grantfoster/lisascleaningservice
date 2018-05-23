@@ -660,7 +660,7 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: rgba(55, 55, 55, 0.25);
 }
 
 a:hover, a:focus, a:active {
