@@ -30,7 +30,7 @@
 					</div>
 				</nav><!-- #site-navigation -->
 				<p class='small'><i class="fa fa-mobile-alt"></i> 919-249-6730</p>
-				<p class="small">Copyright H.M Stanley Group 2018</p>
+				<p class="small">Copyright The H.M Stanley Group 2018</p>
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

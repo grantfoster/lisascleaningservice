@@ -55,12 +55,12 @@
 						<div class='col-sm-6 zoom'>
 							<div style='text-align: left;'>
 							<h4>For Clients</h4>
-							<p><a href='/clients'>Submit a job &rarr;</a></p>
+							<p><a href='/clients'><?php the_field('clients_button_text'); ?> &rarr;</a></p>
 							</div>
 						</div>
 						<div class='col-sm-6 zoom'>
 								<h4>For Candidates</h4>
-								<p><a href='/candidates'>Find a job &rarr;</a></p>
+								<p><a href='/candidates'><?php the_field('candidates_button_text'); ?> &rarr;</a></p>
 						</div>
 					</div>
 				</div>
