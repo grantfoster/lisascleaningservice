@@ -1,0 +1,34 @@
+Footer is done
+
+Headers can be chosen from collection
+https://www.shutterstock.com/collections/82564794?verification_code=30e7f294fc9fc51a586a33734965cd97&utm_source=collections&utm_medium=copylink&utm_campaign=lightbox
+
+Candidates vs clients.
+
+Corrected spacing.
+
+All content added.
+
+We can set up 'jobs page' custom => will take some time vs ACF Custom Fields.
+
+What else do you need.
+
+- center main nav items horizontally
+
+- add space above h1
+
+- center ladies preview
+
+- find a more horizontal phone
+
+- phone number after call today and in footer
+
+- too much whitespace above content
+
+- fix whitespace above and below about us
+
+- center form 
+
+- add and buy the pictures
+
+- job section

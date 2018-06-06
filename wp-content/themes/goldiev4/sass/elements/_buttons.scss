@@ -1,0 +1,17 @@
+.gold-cta {
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    background-color: $gold;
+    padding: 10px 60px;
+    @include transition(400ms);
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        background-color: $gold-hover;
+        color: $charcoal;
+        text-decoration: none;
+    }
+}
