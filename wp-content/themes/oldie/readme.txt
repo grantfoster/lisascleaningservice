@@ -13,7 +13,7 @@ A starter theme called Oldie.
 
 == Description ==
 
-Description
+A theme for my Aunt.
 
 == Installation ==
 
