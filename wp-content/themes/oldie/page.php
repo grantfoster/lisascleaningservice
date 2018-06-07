@@ -15,11 +15,10 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<div class='container'>
+			<div class='container content-area' id="primary">
 				<div class='row'>
-					<div class='col-sm-12'>
+					<div class='col-sm-8'>
 						<?php
 						while ( have_posts() ) :
 							the_post();
@@ -27,10 +26,12 @@ get_header();
 						endwhile; // End of the loop.
 						?>
 					</div>
+					<div class='col-sm-4'>
+						<img src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'>
+					</div>
 				</div>
 			</div>
 		</main><!-- #main -->
-	</div><!-- #primary -->
 
 <?php
 get_footer();

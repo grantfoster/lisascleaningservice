@@ -600,6 +600,10 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+.logo {
+	padding: 20px 0px;
+}
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -631,6 +635,7 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #E5553F;
 }
 
 .main-navigation ul {
@@ -669,6 +674,7 @@ a:hover, a:active {
 }
 
 .main-navigation li {
+	padding: 15px;
 	float: left;
 	position: relative;
 }
@@ -853,6 +859,17 @@ a:hover, a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## BLocks
+--------------------------------------------------------------*/
+.yellow {
+	background-color: #FEF060;
+}
+
+.content-area {
+	background-color: white;
 }
 
 /*--------------------------------------------------------------

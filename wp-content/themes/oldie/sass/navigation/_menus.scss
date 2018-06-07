@@ -3,6 +3,7 @@
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: $coral;
 
 	ul {
 		display: none;
@@ -50,6 +51,7 @@
 	}
 
 	li {
+		padding: 15px;
 		float: left;
 		position: relative;
 

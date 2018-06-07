@@ -26,22 +26,30 @@
 
 	<header id="masthead" class="site-header">
 		<div class="container">
-			<div class='row'>
-				<div class='col-sm-12'>
+			<div class='row'>		
+				<a href="<?php echo get_home_url(); ?>">
+					<img class='logo' src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/>
+				</a>
+				<nav id="site-navigation" class="main-navigation">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'oldie' ); ?></button>
 					<?php
-					the_custom_logo();
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
 					?>
-					<nav id="site-navigation" class="main-navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'oldie' ); ?></button>
-						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-						) );
-						?>
-					</nav><!-- #site-navigation -->
+				</nav><!-- #site-navigation -->
+			</div>
+			<?php if ( is_front_page() ): ?>
+				<div class='row'>
+						<img src="<?php echo get_bloginfo('template_url') ?>/images/header.jpg" width="100%"/>
+				</div>	
+				<div class='row'>
+					<div class='col-sm-12 yellow'>
+						<p class='small'>[the field 'header-bar']The best maid service in Apex, Cary, northern Fuquay-Varina, Holly Springs, Morrisville and select areas of Raleigh since 2007.</p>
+					</div>
 				</div>
-			</div>	
+			<?php endif; ?>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
 
