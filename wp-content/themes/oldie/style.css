@@ -396,8 +396,12 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+h3 {
+	color: #B2BF4A;
+}
+
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 dfn, cite, em, i {
@@ -471,7 +475,7 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.5em;
 }
 
 ul {
@@ -842,10 +846,6 @@ a:hover, a:active {
 	display: block;
 }
 
-.hentry {
-	margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
 	display: none;
 }
@@ -866,6 +866,26 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .yellow {
 	background-color: #FEF060;
+}
+
+.green {
+	background-color: #B2BF4A;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.space {
+	margin: 30px;
 }
 
 .content-area {

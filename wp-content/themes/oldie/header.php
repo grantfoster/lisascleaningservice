@@ -42,7 +42,7 @@
 			</div>
 			<?php if ( is_front_page() ): ?>
 				<div class='row'>
-						<img src="<?php echo get_bloginfo('template_url') ?>/images/header.jpg" width="100%"/>
+					<img src="<?php echo get_bloginfo('template_url') ?>/images/header.jpg" width="100%" style="width: 100%; height: 100%;"/>
 				</div>	
 				<div class='row'>
 					<div class='col-sm-12 yellow'>

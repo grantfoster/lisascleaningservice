@@ -26,8 +26,27 @@ get_header();
 						endwhile; // End of the loop.
 						?>
 					</div>
+					<div class='col-sm-4' style="display:flex;justify-content:center;align-items:flex-end;">
+						<img style="margin: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'>
+					</div>
+				</div>
+				<div class="row space">
+					<div class='col-sm-6 right'>
+						<img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/regular-cleaning.png' />
+					</div>
+					<div class='col-sm-6 left'>
+						<img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/move-in-move-out.png' />
+					</div>
+				</div>
+				<div class='row'>
 					<div class='col-sm-4'>
-						<img src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'>
+						<?php the_field('section_1'); ?>
+					</div>
+					<div class='col-sm-4'>
+						<?php the_field('section_2'); ?>
+					</div>
+					<div class='col-sm-4'>
+						<?php the_field('section_3'); ?>
 					</div>
 				</div>
 			</div>

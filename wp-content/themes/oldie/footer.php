@@ -13,6 +13,20 @@
 
 	</div><!-- #content -->
 		<div class='container'>
+			<div class='row green'>
+				<div class='col-sm-3'>
+					<?php the_field('footer_section_1', 'option'); ?>
+				</div>
+				<div class='col-sm-3'>
+					<?php the_field('footer_section_2', 'option'); ?>
+				</div>
+				<div class='col-sm-3'>
+					<?php the_field('footer_section_3', 'option'); ?>
+				</div>
+				<div class='col-sm-3'>
+					<?php the_field('footer_section_4', 'option'); ?>
+				</div>
+			</div>
 			<div class="row">
 				<div class='col-sm-12'>
 					<footer id="colophon" class="site-footer">
