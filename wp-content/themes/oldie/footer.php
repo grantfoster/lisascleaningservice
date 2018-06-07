@@ -12,23 +12,18 @@
 ?>
 
 	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'oldie' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'oldie' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'oldie' ), 'oldie', '<a href="http://www.grantlfoster.com">Grant Foster</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<div class='container'>
+			<div class="row">
+				<div class='col-sm-12'>
+					<footer id="colophon" class="site-footer">
+						<div class="site-info">
+							<p>Copyright Lisa's Cleaning Service 2018</p>
+						</div><!-- .site-info -->
+					</footer><!-- #colophon -->
+				</div>
+			</div>
+		</div>		
+	</div><!-- #page -->
 
 <?php wp_footer(); ?>
 

@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'oldie_widgets_init' );
 function oldie_scripts() {
 	wp_enqueue_style( 'oldie-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap-grid.css' );
+
 	wp_enqueue_script( 'oldie-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'oldie-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
