@@ -400,6 +400,10 @@ h3 {
 	color: #B2BF4A;
 }
 
+h4 {
+	color: white;
+}
+
 p {
 	margin-bottom: 1em;
 }
@@ -889,6 +893,14 @@ a:hover, a:active {
 }
 
 .content-area {
+	background-color: white;
+}
+
+.footer {
+	margin-bottom: 50px;
+}
+
+.footer .bottom-footer {
 	background-color: white;
 }
 
