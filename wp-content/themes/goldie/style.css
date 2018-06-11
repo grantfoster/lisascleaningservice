@@ -1,10 +1,10 @@
 /*!
-Theme Name: Goldie v3 
+Theme Name: Goldie
 Theme URI: www.hmstanleygroup.com
 Author: Grant Foster
 Author URI: https://www.grantlfoster.com 
 Description: This is my first wordpress theme.
-Version: 1.0.0
+Version: 5.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: _s
@@ -656,6 +656,7 @@ div.wpforms-container-full .wpforms-form textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
+	text-decoration: underline;
 	color: royalblue;
 }
 
@@ -679,9 +680,11 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
+	position: fixed;
 	width: 100%;
 	display: inline-block;
-	background-color: rgba(190, 178, 136, 0.7);
+	background-color: #beb288;
+	z-index: 99;
 }
 
 .main-navigation ul {
@@ -974,7 +977,7 @@ a:hover, a:active {
 .site-header h1 {
 	color: white;
 	text-shadow: 0px 0px 10px #373737;
-	margin: 200px auto 60px auto;
+	margin: 310px auto 60px auto;
 }
 
 @media screen and (max-width: 425px) {
@@ -1218,4 +1221,4 @@ object {
 	text-align: center;
 }
 
-/*# sourceMappingURL=../goldiev3/sass/maps/style.css.map */
+/*# sourceMappingURL=../goldie/sass/maps/style.css.map */

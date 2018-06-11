@@ -1,7 +1,9 @@
 .main-navigation {
+	position: fixed;
 	width: 100%;
 	display: inline-block;
-	background-color: $gold--transparent;
+	background-color: $gold;
+	z-index: 99;
 
 	ul {
 		display: none;
