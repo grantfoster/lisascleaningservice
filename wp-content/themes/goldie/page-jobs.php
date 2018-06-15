@@ -35,7 +35,7 @@ get_header();
 
                                     <p><?php echo $description; ?></p>
 
-                                    <p><a class='gold-cta' href='/apply/?position=<?php echo $title ?>'>Apply</a></p>
+                                    <p><a class='gold-cta' href='mailto:randy@hmstanleygroup.com?Subject=<?php echo rawurlencode($title) ?>%20-%20Job%20Listing'>Apply</a></p>
                                 </div> 
 
                                 <?php endwhile; ?>
