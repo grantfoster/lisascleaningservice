@@ -43,13 +43,13 @@
 			<?php if ( is_front_page() ): ?>
 				<div class='row'>
 					<img src="<?php echo get_bloginfo('template_url') ?>/images/header.jpg" width="100%" style="width: 100%; height: 100%;"/>
-				</div>	
-				<div class='row'>
+				</div>
+			<?php endif; ?>
+			<div class='row'>
 					<div class='col-sm-12 yellow'>
 						<p class='small'>[the field 'header-bar']The best maid service in Apex, Cary, northern Fuquay-Varina, Holly Springs, Morrisville and select areas of Raleigh since 2007.</p>
 					</div>
 				</div>
-			<?php endif; ?>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
 

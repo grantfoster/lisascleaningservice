@@ -1,4 +1,4 @@
-var themename = 'goldie';
+var themename = 'oldie';
 
 var gulp = require('gulp'),
 	// Prepare and optimize code etc
