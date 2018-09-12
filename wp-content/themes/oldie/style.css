@@ -386,7 +386,7 @@ select,
 optgroup,
 textarea {
 	color: #333333;
-	font-family: sans-serif;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -398,10 +398,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
 	color: #B2BF4A;
+	font-size: 1.6em;
 }
 
 h4 {
 	color: white;
+}
+
+.column-title {
+	color: #FEF060;
+	font-size: 1.2em;
+	padding: 5px;
+	border-radius: 3px;
+	background: #76AFB9;
 }
 
 p {
@@ -422,7 +431,7 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -433,7 +442,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -450,6 +459,10 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+.small {
+	font-size: 13px;
 }
 
 /*--------------------------------------------------------------
@@ -692,6 +705,14 @@ a:hover, a:active {
 	color: white;
 	display: block;
 	text-decoration: none;
+}
+
+.main-navigation .current-menu-item {
+	background-color: #8eb3b9;
+}
+
+.main-navigation .menu-item:hover {
+	background-color: #8eb3b9;
 }
 
 /* Small menu. */

@@ -47,7 +47,7 @@
 			<?php endif; ?>
 			<div class='row'>
 					<div class='col-sm-12 yellow'>
-						<p class='small'>[the field 'header-bar']The best maid service in Apex, Cary, northern Fuquay-Varina, Holly Springs, Morrisville and select areas of Raleigh since 2007.</p>
+						<p class='small'>The <strong>best maid service</strong> in Apex, Cary, northern Fuquay-Varina, Holly Springs, Morrisville and select areas of Raleigh since 2007.</p><div></div>
 					</div>
 				</div>
 		</div><!-- .container -->

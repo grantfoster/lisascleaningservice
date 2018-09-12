@@ -27,15 +27,15 @@ get_header();
 						?>
 					</div>
 					<div class='col-sm-4' style="display:flex;justify-content:center;align-items:flex-end;">
-						<img style="margin: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'>
+					<a href="contact-us"><img style="margin: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'></a>
 					</div>
 				</div>
 				<div class="row space">
 					<div class='col-sm-6 right'>
-						<img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/regular-cleaning.png' />
+						<a href="regular-maid-service"><img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/regular-cleaning.png' /></a>
 					</div>
 					<div class='col-sm-6 left'>
-						<img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/move-in-move-out.png' />
+						<a href="one-time-service"><img class='space' src='<?php echo get_bloginfo("template_url") ?>/images/move-in-move-out.png' /></a>
 					</div>
 				</div>
 				<div class='row'>
