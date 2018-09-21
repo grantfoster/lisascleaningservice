@@ -31,3 +31,13 @@ figure {
 }
 
 @import "tables";
+
+//me
+
+.col-sm-4 ul {
+	list-style-image: url("/wp-content/themes/oldie/images/Bullet.png");
+	margin-top: 24px;
+	li {
+		line-height: 48px;
+	}
+}

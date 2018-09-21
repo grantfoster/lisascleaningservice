@@ -15,31 +15,38 @@ get_header();
 			<div class='container content-area' id="primary">
 				<div class='row'>
                     <div class='col-sm-8'>
-                    ayy
+                    <img style="margin-top: 30px;" src="/wp-content/themes/oldie/images/Move-in-Move-out-Cleaning-Services.png" alt="Cleanier" />
+                    <?php
+                                while ( have_posts() ) :
+                                    the_post();
+                                    get_template_part( 'template-parts/content', 'page' );
+                                endwhile; // End of the loop.
+                        ?>
                     </div>
 					<div class='col-sm-4'>
-					ayy
+					    <a href="contact-us"><img style="margin-top: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'></a>
+                        <?php the_field('right_column'); ?>
 					</div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-12'>
-                    ayy
+                        <?php the_field('section_one'); ?>
                     </div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_two'); ?>
                     </div>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_three'); ?>
                     </div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_four'); ?>
                     </div>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_five'); ?>
                     </div>
 				</div>
 			</div>

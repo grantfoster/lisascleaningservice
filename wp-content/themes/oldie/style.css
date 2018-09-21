@@ -396,6 +396,11 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+h2 {
+	color: #B2BF4A;
+	font-size: 2.2em;
+}
+
 h3 {
 	color: #B2BF4A;
 	font-size: 1.6em;
@@ -532,6 +537,15 @@ figure {
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
+}
+
+.col-sm-4 ul {
+	list-style-image: url("/wp-content/themes/oldie/images/Bullet.png");
+	margin-top: 24px;
+}
+
+.col-sm-4 ul li {
+	line-height: 48px;
 }
 
 /*--------------------------------------------------------------

@@ -25,27 +25,28 @@ get_header();
                     </div>
 					<div class='col-sm-4'>
                         <a href="contact-us"><img style="margin-top: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'></a>
+                        <?php the_field('right_column'); ?>
 					</div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-12'>
-                    ayy
+                        <?php the_field('section_one'); ?>
                     </div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_two'); ?>
                     </div>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_three'); ?>
                     </div>
 				</div>
                 <div class='row'>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_four'); ?>
                     </div>
                     <div class='col-sm-6'>
-                    ayy
+                        <?php the_field('section_five'); ?>
                     </div>
 				</div>
 			</div>
