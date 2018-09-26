@@ -31,12 +31,13 @@ get_header();
 								$answer = get_sub_field('answer');
 
 							?>
-									<hr>
-									<div style="background-color: #E0E0E0; font-weight: bold; font-size: 14px; padding-top: 5px; padding-bottom: 5px;">
+									<div class="question">
 										<p><?php echo $question ?></p>
 									</div>
-									<p><strong>Answer:</strong>
-									<?php echo $answer; ?>
+									<div class='answer' style="display: none;">
+										<p><strong>Answer:</strong>
+										<?php echo $answer; ?>
+									</div>
 
 							<?php endwhile; ?>
 

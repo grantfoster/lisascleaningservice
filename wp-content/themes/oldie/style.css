@@ -548,6 +548,15 @@ table {
 	line-height: 48px;
 }
 
+.question {
+	color: #E5553F;
+	background-color: #E0E0E0;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;
+	cursor: pointer;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
