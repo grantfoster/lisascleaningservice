@@ -16,10 +16,15 @@ get_header();
 			<div class='container content-area' id="primary">
 				<div class='row'>
                     <div class='col-sm-8'>
-                    ayy
+						<?php
+								while ( have_posts() ) :
+									the_post();
+									get_template_part( 'template-parts/content', 'page' );
+								endwhile; // End of the loop.
+							?>
                     </div>
 					<div class='col-sm-4'>
-					ayy
+						<?php the_field('right_column'); ?>
 					</div>
 				</div>
 			</div>

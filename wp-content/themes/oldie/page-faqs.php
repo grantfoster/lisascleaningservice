@@ -32,7 +32,7 @@ get_header();
 
 							?>
 									<div class="question">
-										<p><?php echo $question ?></p>
+										<?php echo $question ?>
 									</div>
 									<div class='answer' style="display: none;">
 										<p><strong>Answer:</strong>

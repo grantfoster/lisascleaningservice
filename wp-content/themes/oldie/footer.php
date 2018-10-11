@@ -30,7 +30,7 @@
 			<div class="row bottom-footer">
 				<div class='col-sm-12'>
 					<footer id="colophon">
-						<div class="site-info">
+						<div class="site-info center">
 							<?php the_field('bottom_footer', 'option'); ?>
 						</div><!-- .site-info -->
 					</footer><!-- #colophon -->

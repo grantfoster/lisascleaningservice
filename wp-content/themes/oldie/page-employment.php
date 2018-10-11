@@ -15,11 +15,18 @@ get_header();
 		<main id="main" class="site-main">
 			<div class='container content-area' id="primary">
 				<div class='row'>
-                    <div class='col-sm-8'>
-                    ayy
+					<div class='col-sm-8'>
+						<?php
+								while ( have_posts() ) :
+									the_post();
+									get_template_part( 'template-parts/content', 'page' );
+								endwhile; // End of the loop.
+							?>
                     </div>
 					<div class='col-sm-4'>
-					ayy
+						<a href="contact-us"><img style="margin-top: 30px;" src='<?php echo get_bloginfo("template_url") ?>/images/request-quote.png'></a>
+						<h4 class="column-title">Want to Work With Us?</h4>
+						<?php the_field('right_column'); ?>
 					</div>
 				</div>
 			</div>

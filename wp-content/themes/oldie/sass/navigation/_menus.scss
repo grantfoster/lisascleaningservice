@@ -19,6 +19,7 @@
 			left: -999em;
 			z-index: 99999;
 			background-color: $coral;
+			
 
 			ul {
 				left: -999em;
@@ -78,8 +79,11 @@
 		
 	}
 
-	.menu-item:hover {
-		background-color: $blue-hover;
+	.menu-item {
+		border-right: 1px solid rgba(255, 255, 255, 0.3);
+		&:hover {
+			background-color: $blue-hover;
+		}
 	}
 }
 
